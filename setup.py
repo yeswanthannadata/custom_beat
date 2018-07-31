@@ -17,7 +17,7 @@ except (AttributeError, ImportError):
         return 'Python'
 
 NAME = 'django-celery-beat'
-PACKAGE = 'django_celery_beat'
+PACKAGE = 'custom_celery_beat'
 
 E_UNSUPPORTED_PYTHON = '%s 1.0 requires %%s %%s or later!' % (NAME,)
 
